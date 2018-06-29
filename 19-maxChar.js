@@ -29,3 +29,7 @@ function findMaxChars(string) {
 }
 
 findMaxChars('Hello There!');
+
+// find the most common character in the string.      - Done
+//  does string a have same characters as string b ?
+//  does the strin hav eany repeated characters ?     - Done
