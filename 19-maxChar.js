@@ -20,16 +20,11 @@ function findMaxChars(string) {
 		for( let char in charMap ){  // for obj we use in
 			if ( charMap[char] > max ) {
 				 max = charMap[char];
-				 console.log(' 22 - max = ' ,  max );
 				 maxChar = char;
-				 console.log(' 25 - maxChar = ' ,  maxChar );
-			}
-			else {
-				charMap[char] = 1;
 			}
 		}
 
-
+	console.log(' 25 - maxChar = ' ,  maxChar );
 
 }
 
