@@ -5,7 +5,7 @@ function findMaxChars(string) {
 	let max = 0;
 	let maxChar = '';
 
-		for( let char of string ){  // for string / array we use of
+		for( let char of string ){  // for string / array we use "of"
 			if ( charMap[char] ) {
 				charMap[char] ++;
 			}
@@ -17,7 +17,7 @@ function findMaxChars(string) {
 		console.log('22-  charMap = ', charMap );
 		// give the character that is max times repeated ?
 
-		for( let char in charMap ){  // for obj we use in
+		for( let char in charMap ){  // for obj we use "in"
 			if ( charMap[char] > max ) {
 				 max = charMap[char];
 				 maxChar = char;
@@ -31,5 +31,5 @@ function findMaxChars(string) {
 findMaxChars('Hello There!');
 
 // find the most common character in the string.      - Done
-//  does string a have same characters as string b ?
+//  does string a have same characters as string b ?   Anagram
 //  does the strin hav eany repeated characters ?     - Done
