@@ -29,3 +29,4 @@ class Toyota extends Car {
 const toyota = new Toyota ({ color : "red", title: 'the title ' })
 console.log('29 -  toyota.honk() = ', toyota.honk() );
 console.log('30 -  toyota = ', toyota );
+console.log('32 -  toyota.honk() = ', toyota.honk() );
