@@ -8,5 +8,5 @@
 const url = "http://jsonplaceholder.typicode.com/posts/234243";
 
 fetch(url)
-  .then( response =>  console.log(response);
+  .then( response =>  console.log(response))
   .catch ( data =>  console.log(' BAD data= ', data ));

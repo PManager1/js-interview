@@ -5,8 +5,9 @@ let vowels = ['a','e','i','o','u'];
 let total = 0;
 
 for ( let str of string.toLowerCase() ) {
+    // if (("aeiou").includes(str)) {
+    if ( ['a','e','i','o','u'].includes(str)) {
 
-    if (("aeiou").includes(str)) {
       console.log(' yes ');
       total += 1;
     }
