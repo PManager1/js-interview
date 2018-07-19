@@ -48,28 +48,6 @@ class Queue {
 }
 
 
-// function weave(queueOne, queueTwo){
-//   console.log(' 60- weave called ');
-//   console.log(' 62- queueOne ', queueOne);
-//
-//   const DataQueue =  new Queue();
-//
-//   while ( queueOne.peek() || queueTwo.peek() ) {
-//     console.log('70-  DataQueue =', DataQueue );
-//
-//     if (queueOne.peek()) {
-//       DataQueue.add(queueOne.remove());
-//     }
-//     if (queueTwo.peek()) {
-//       DataQueue.add(queueTwo.remove());
-//     }
-//     console.log( ' 84 - DataQueue =', DataQueue );
-//   }
-//
-//   return DataQueue;
-//
-// }
-
 
 function weave(sourceOne, sourceTwo) {
   const q = new Queue();
@@ -95,6 +73,8 @@ function weave(sourceOne, sourceTwo) {
    const queueOne = new Queue();
    queueOne.add(1);
    queueOne.add(2);
+   queueOne.add(3);
+   queueOne.add(4);
 
    console.log('106 -  peak = ' ,  queueOne.peek() );
    console.log( '109 -  queueOne =', queueOne );
