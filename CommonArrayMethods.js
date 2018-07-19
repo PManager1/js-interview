@@ -17,7 +17,7 @@ const strr = "Hello World";
 
 split =  "abcdef"  GOOGLE IT
 split('') = a,b,c,d,e,f;
-
+=> it retuns an array of seperated values
 
 substring():  is similar to slice().
 The difference is that substring() cannot accept negative indexes.
@@ -91,3 +91,6 @@ console.log(array1.every(isBelowThreshold));
 
 
 ==========================================================
+
+
+math.ceil
